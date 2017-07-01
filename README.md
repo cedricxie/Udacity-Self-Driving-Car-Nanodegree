@@ -11,3 +11,5 @@ Just trying to complete everything in a quick and dirty way.
 ### Project 3: Behavior Cloning (06/18/2017)
 
 ### Project 4: Advanced Lane Finding (06/25/2017)
+
+### Project 5: Vehicle Detection (06/30/2017)
