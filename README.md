@@ -24,3 +24,8 @@ Just trying to complete everything in a quick and dirty way.
 ### Project 4: PID Controller (07/12/2017)
 
 ### Project 5: Model Predictive Control (07/15/2017)
+
+## Term 3
+### Project 1: Path Planning (08/12/2017)
+
+### Project 2: Elective - Function Safety (08/15/2017)
