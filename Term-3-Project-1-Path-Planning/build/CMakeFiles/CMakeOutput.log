@@ -1,0 +1,211 @@
+The system is: Darwin - 15.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e662b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e662b.dir/build.make CMakeFiles/cmTC_e662b.dir/build
+Building C object CMakeFiles/cmTC_e662b.dir/testCCompiler.c.o
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc    -o CMakeFiles/cmTC_e662b.dir/testCCompiler.c.o   -c /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e662b
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e662b.dir/link.txt --verbose=1
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e662b.dir/testCCompiler.c.o  -o cmTC_e662b 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0303/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0303.dir/build.make CMakeFiles/cmTC_a0303.dir/build
+Building C object CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc    -o CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a0303
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0303.dir/link.txt --verbose=1
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o  -o cmTC_a0303 
+mpicc for MPICH version 3.1.4
+clang version 3.7.0 (tags/RELEASE_370/final)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_a0303 -L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib -commons use_dylibs -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o -lmpi -lpmpi -L/opt/moose/llvm_3.7.0/lib -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/opt/moose/mpich/mpich-3.1.4/clang-opt/lib
+	/opt/moose/llvm_3.7.0/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a0303/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0303.dir/build.make CMakeFiles/cmTC_a0303.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc    -o CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a0303]
+  ignore line: [/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0303.dir/link.txt --verbose=1]
+  ignore line: [/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o  -o cmTC_a0303 ]
+  ignore line: [mpicc for MPICH version 3.1.4]
+  ignore line: [clang version 3.7.0 (tags/RELEASE_370/final)]
+  ignore line: [Target: x86_64-apple-darwin15.6.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_a0303 -L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib -commons use_dylibs -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o -lmpi -lpmpi -L/opt/moose/llvm_3.7.0/lib -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0303] ==> ignore
+    arg [-L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+    arg [-commons] ==> ignore
+    arg [use_dylibs] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a0303.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lpmpi] ==> lib [pmpi]
+    arg [-L/opt/moose/llvm_3.7.0/lib] ==> dir [/opt/moose/llvm_3.7.0/lib]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/moose/mpich/mpich-3.1.4/clang-opt/lib;/opt/moose/llvm_3.7.0/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+  collapse library dir [/opt/moose/llvm_3.7.0/lib] ==> [/opt/moose/llvm_3.7.0/lib]
+  collapse library dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+  collapse library dir [/opt/moose/llvm_3.7.0/lib] ==> [/opt/moose/llvm_3.7.0/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi;pmpi]
+  implicit dirs: [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib;/opt/moose/llvm_3.7.0/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_443a0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_443a0.dir/build.make CMakeFiles/cmTC_443a0.dir/build
+Building CXX object CMakeFiles/cmTC_443a0.dir/testCXXCompiler.cxx.o
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx     -o CMakeFiles/cmTC_443a0.dir/testCXXCompiler.cxx.o -c /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_443a0
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_443a0.dir/link.txt --verbose=1
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_443a0.dir/testCXXCompiler.cxx.o  -o cmTC_443a0 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b782/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b782.dir/build.make CMakeFiles/cmTC_8b782.dir/build
+Building CXX object CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx     -o CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8b782
+/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b782.dir/link.txt --verbose=1
+/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8b782 
+mpicxx for MPICH version 3.1.4
+clang version 3.7.0 (tags/RELEASE_370/final)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_8b782 -L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib -commons use_dylibs -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o -lmpicxx -lmpi -lpmpi -L/opt/moose/llvm_3.7.0/lib -lc++ -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/opt/moose/mpich/mpich-3.1.4/clang-opt/lib
+	/opt/moose/llvm_3.7.0/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/cedricxie/CarND-Path-Planning-Project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8b782/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b782.dir/build.make CMakeFiles/cmTC_8b782.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx     -o CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.8.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8b782]
+  ignore line: [/usr/local/Cellar/cmake/3.8.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b782.dir/link.txt --verbose=1]
+  ignore line: [/opt/moose/mpich/mpich-3.1.4/clang-opt/bin/mpicxx    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8b782 ]
+  ignore line: [mpicxx for MPICH version 3.1.4]
+  ignore line: [clang version 3.7.0 (tags/RELEASE_370/final)]
+  ignore line: [Target: x86_64-apple-darwin15.6.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_8b782 -L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib -commons use_dylibs -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o -lmpicxx -lmpi -lpmpi -L/opt/moose/llvm_3.7.0/lib -lc++ -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8b782] ==> ignore
+    arg [-L/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+    arg [-commons] ==> ignore
+    arg [use_dylibs] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_8b782.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpicxx] ==> lib [mpicxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lpmpi] ==> lib [pmpi]
+    arg [-L/opt/moose/llvm_3.7.0/lib] ==> dir [/opt/moose/llvm_3.7.0/lib]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/moose/mpich/mpich-3.1.4/clang-opt/lib;/opt/moose/llvm_3.7.0/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+  collapse library dir [/opt/moose/llvm_3.7.0/lib] ==> [/opt/moose/llvm_3.7.0/lib]
+  collapse library dir [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib] ==> [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib]
+  collapse library dir [/opt/moose/llvm_3.7.0/lib] ==> [/opt/moose/llvm_3.7.0/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpicxx;mpi;pmpi;c++]
+  implicit dirs: [/opt/moose/mpich/mpich-3.1.4/clang-opt/lib;/opt/moose/llvm_3.7.0/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
